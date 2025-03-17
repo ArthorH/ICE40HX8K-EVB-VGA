@@ -1,0 +1,11 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO231 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|Found counter in view:work.LED_VHDL(behavioral) instance div_cntr1[15:0] 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.edf
+@N: MT615 |Found clock VGA_PLL|PLLOUTGLOBAL_derived_clock with period 6.66ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

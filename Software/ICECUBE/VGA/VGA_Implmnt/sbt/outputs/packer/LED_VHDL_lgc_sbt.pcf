@@ -1,0 +1,95 @@
+set_location IN_MUX_bfv_6_20_0_ 6 20 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_6_21_0_ 6 21 0 #ICE_CARRY_IN_MUX
+set_location CONSTANT_ONE_LUT4 16 1 2 #SB_LUT4
+set_location GB_BUFFER_PLL_out_c_THRU_LUT4_0 3 27 6 #SB_LUT4
+set_location div_cntr2_RNO[3] 6 19 1 #SB_LUT4
+set_location dec_cntr 5 20 2 #SB_DFF
+set_location div_cntr2[3] 6 19 1 #SB_DFFE
+set_location half_sec_pulse_RNO_1 5 20 6 #SB_LUT4
+set_location div_cntr1_RNO[8] 6 21 0 #SB_LUT4
+set_location div_cntr1_RNO[13] 6 21 5 #SB_LUT4
+set_location div_cntr1_RNIESE6[0] 5 20 5 #SB_LUT4
+set_location div_cntr1[0] 6 20 0 #SB_DFF
+set_location div_cntr2_RNIMFRB[3] 6 18 5 #SB_LUT4
+set_location div_cntr1_cry_c[3] 6 20 3 #SB_CARRY
+set_location div_cntr1_cry_c[14] 6 21 6 #SB_CARRY
+set_location div_cntr1_RNO[1] 6 20 1 #SB_LUT4
+set_location div_cntr1_RNISPPD[8] 5 21 5 #SB_LUT4
+set_location div_cntr1[9] 6 21 1 #SB_DFF
+set_location div_cntr2_RNO_1[3] 6 18 7 #SB_LUT4
+set_location div_cntr1_RNO[14] 6 21 6 #SB_LUT4
+set_location div_cntr1[13] 6 21 5 #SB_DFF
+set_location div_cntr2_RNO_0[4] 6 18 6 #SB_LUT4
+set_location div_cntr1_cry_c[13] 6 21 5 #SB_CARRY
+set_location div_cntr1_RNO[4] 6 20 4 #SB_LUT4
+set_location div_cntr1_RNIUCF6[4] 5 20 7 #SB_LUT4
+set_location div_cntr1[4] 6 20 4 #SB_DFF
+set_location div_cntr2_RNO_0[6] 6 19 4 #SB_LUT4
+set_location div_cntr2[4] 6 19 2 #SB_DFFE
+set_location div_cntr1_cry_c[6] 6 20 6 #SB_CARRY
+set_location div_cntr1_cry_c[11] 6 21 3 #SB_CARRY
+set_location div_cntr1_RNO[2] 6 20 2 #SB_LUT4
+set_location div_cntr1[6] 6 20 6 #SB_DFF
+set_location div_cntr2_e[0] 5 18 0 #SB_DFFE
+set_location div_cntr2_RNO[2] 6 19 6 #SB_LUT4
+set_location div_cntr1_RNO[10] 6 21 2 #SB_LUT4
+set_location div_cntr1_RNIQ64L[15] 5 21 1 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location div_cntr2[2] 6 19 6 #SB_DFFE
+set_location div_cntr1_cry_c[4] 6 20 4 #SB_CARRY
+set_location div_cntr1_RNO[0] 6 20 0 #SB_LUT4
+set_location div_cntr1[8] 6 21 0 #SB_DFF
+set_location half_sec_pulse_RNO_0 5 20 1 #SB_LUT4
+set_location div_cntr2_e_RNO[0] 5 18 0 #SB_LUT4
+set_location div_cntr2_RNO[4] 6 19 2 #SB_LUT4
+set_location div_cntr1_RNO[9] 6 21 1 #SB_LUT4
+set_location div_cntr1_RNO[12] 6 21 4 #SB_LUT4
+set_location div_cntr1[15] 6 21 7 #SB_DFF
+set_location div_cntr1[1] 6 20 1 #SB_DFF
+set_location div_cntr1_cry_c[2] 6 20 2 #SB_CARRY
+set_location div_cntr1_RNO[15] 6 21 7 #SB_LUT4
+set_location div_cntr1_RNI2ASF1[0] 5 20 0 #SB_LUT4
+set_location half_sec_pulse_RNO_2 5 20 4 #SB_LUT4
+set_location div_cntr2_RNO[6] 6 19 5 #SB_LUT4
+set_location div_cntr2_RNIU80K[6] 5 19 4 #SB_LUT4
+set_location div_cntr1_cry_c[9] 6 21 1 #SB_CARRY
+set_location div_cntr1_cry_c[12] 6 21 4 #SB_CARRY
+set_location div_cntr1_RNO[7] 6 20 7 #SB_LUT4
+set_location div_cntr1[3] 6 20 3 #SB_DFF
+set_location div_cntr2_RNO[1] 6 19 7 #SB_LUT4
+set_location div_cntr1_cry_c[0] 6 20 0 #SB_CARRY
+set_location div_cntr1[12] 6 21 4 #SB_DFF
+set_location div_cntr2[5] 6 19 3 #SB_DFFE
+set_location div_cntr1_cry_c[7] 6 20 7 #SB_CARRY
+set_location div_cntr1_cry_c[10] 6 21 2 #SB_CARRY
+set_location div_cntr1_RNO[5] 6 20 5 #SB_LUT4
+set_location div_cntr1[5] 6 20 5 #SB_DFF
+set_location half_sec_pulse_RNO 5 19 2 #SB_LUT4
+set_location div_cntr1_RNO[11] 6 21 3 #SB_LUT4
+set_location div_cntr1[10] 6 21 2 #SB_DFF
+set_location div_cntr1_cry_c[5] 6 20 5 #SB_CARRY
+set_location div_cntr1_RNO[3] 6 20 3 #SB_LUT4
+set_location div_cntr1[7] 6 20 7 #SB_DFF
+set_location div_cntr2_RNO[5] 6 19 3 #SB_LUT4
+set_location dec_cntr_RNO 5 20 2 #SB_LUT4
+set_location div_cntr2_RNIMFRB_0[3] 5 19 3 #SB_LUT4
+set_location div_cntr2[1] 6 19 7 #SB_DFFE
+set_location div_cntr1_RNO[6] 6 20 6 #SB_LUT4
+set_location div_cntr1[2] 6 20 2 #SB_DFF
+set_location div_cntr1[14] 6 21 6 #SB_DFF
+set_location half_sec_pulse 5 19 2 #SB_DFFSS
+set_location div_cntr2_RNO_0[3] 5 20 3 #SB_LUT4
+set_location div_cntr1_cry_c[1] 6 20 1 #SB_CARRY
+set_location div_cntr2[6] 6 19 5 #SB_DFFE
+set_location div_cntr1_cry_c[8] 6 21 0 #SB_CARRY
+set_location div_cntr1[11] 6 21 3 #SB_DFF
+set_io PLL_out B2
+set_io LED5 C5
+set_io LED1 B5
+set_io LED8 C3
+set_io LED6 C4
+set_io LED4 A1
+set_io LED2 B4
+set_io CLK J3
+set_io LED7 B3
+set_io LED3 A2

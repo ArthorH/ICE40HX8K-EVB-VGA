@@ -1,0 +1,5 @@
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance div_cntr1[15:0] is being ignored. 
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance div_cntr2[6:0] is being ignored. 
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance dec_cntr is being ignored. 
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance half_sec_pulse is being ignored. 
+@W: MT420 |Found inferred clock LED_VHDL|CLK with period 6.66ns. Please declare a user-defined clock on object "p:CLK"

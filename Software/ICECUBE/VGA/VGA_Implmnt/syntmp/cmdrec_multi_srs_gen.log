@@ -1,0 +1,7 @@
+F:\Programs\ICEcube2\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_comp.srs  -osyn  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_mult.srs  -log  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\VGA_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_comp.srs|io:i|time:1716019577|size:5794|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_mult.srs|io:o|time:1716019578|size:3288|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\VGA_multi_srs_gen.srr|io:o|time:1716019578|size:844|exec:0
+file:F:\Programs\ICEcube2\synpbase\bin\syn_nfilter.exe|io:i|time:1711274549|size:3128320|exec:1
+file:F:\Programs\ICEcube2\synpbase\bin64\syn_nfilter.exe|io:i|time:1711274550|size:3947520|exec:1

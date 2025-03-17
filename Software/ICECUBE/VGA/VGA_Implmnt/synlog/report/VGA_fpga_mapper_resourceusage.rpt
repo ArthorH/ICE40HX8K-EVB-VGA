@@ -1,0 +1,27 @@
+---------------------------------------
+Resource Usage Report for LED_VHDL 
+
+Mapping to part: ice40hx8kct256
+Cell usage:
+GND             1 use
+SB_CARRY        15 uses
+SB_DFF          17 uses
+SB_DFFE         7 uses
+SB_DFFSS        1 use
+SB_PLL40_CORE   1 use
+VCC             1 use
+SB_LUT4         40 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_IO          10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   25 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 40 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 40 = 40 
+

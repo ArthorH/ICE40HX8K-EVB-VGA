@@ -1,0 +1,285 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Programs/ICEcube2/modeltech/win32loem
+Ecomparator_module
+Z0 w1716032404
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 63
+Z4 dF:/Projects/FPGA/ICE40/ICE40HX8K_breakout/VGA/Simulation
+Z5 8F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Comparator.vhd
+Z6 FF:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Comparator.vhd
+l0
+Z7 L26 1
+VKaH;:;R>U00AlSAKi_Ye12
+!s100 Y0;J]X2f9GYYNmLKOROKB0
+Z8 OT;C;2020.3;71
+32
+!s110 1724064719
+!i10b 1
+Z9 !s108 1724064719.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Comparator.vhd|
+Z11 !s107 F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Comparator.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 17 comparator_module 0 22 KaH;:;R>U00AlSAKi_Ye12
+!i122 63
+l39
+L36 7
+V;Gk;8Ako0D7C9Pcb6>RDl0
+!s100 13>c>_@Xd8__`km_9f@lI0
+R8
+32
+Z14 !s110 1724064720
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounter_module
+Z15 w1717611164
+R1
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 65
+R4
+Z18 8F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module.vhd
+Z19 FF:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module.vhd
+l0
+L16 1
+VWaGTM9EbdeSl=fznR2LWC3
+!s100 `h=gLoS7njb`Y^A_9O9_H2
+R8
+32
+R14
+!i10b 1
+Z20 !s108 1724064720.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module.vhd|
+Z22 !s107 F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R16
+R17
+R2
+R3
+DEx4 work 14 counter_module 0 22 WaGTM9EbdeSl=fznR2LWC3
+!i122 65
+l30
+L25 25
+V`a_HU<`>n0o_TDFU:@W0E2
+!s100 Q7[NeHAdI[Z7Z]zG>Xeg20
+R8
+32
+R14
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Ecounter_module_tb
+Z23 w1717611098
+R1
+R16
+R17
+R2
+R3
+!i122 66
+R4
+Z24 8F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module_TB.vhd
+Z25 FF:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module_TB.vhd
+l0
+L15 1
+VI;mzNLek=9[KeJHMiF`TN1
+!s100 Nh;jkmO?4;Cei9ZbI;Ing1
+R8
+32
+R14
+!i10b 1
+R20
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module_TB.vhd|
+Z27 !s107 F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\counter_module_TB.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R16
+R17
+R2
+R3
+DEx4 work 17 counter_module_tb 0 22 I;mzNLek=9[KeJHMiF`TN1
+!i122 66
+l40
+L21 83
+VY2UbfVFXPEOih5B7[T>BL2
+!s100 _n[:]E=8LG3bUaojd>z>53
+R8
+32
+R14
+!i10b 1
+R20
+R26
+R27
+!i113 1
+R12
+R13
+Esr_module
+Z28 w1724065323
+R1
+R2
+R3
+!i122 73
+R4
+Z29 8F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\SR_Module.vhd
+Z30 FF:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\SR_Module.vhd
+l0
+R7
+V23GH<M7mV<Imc^KZ?X0hN0
+!s100 A3G2o]GiBLKP;ES3l_Y;Y2
+R8
+32
+Z31 !s110 1724065330
+!i10b 1
+Z32 !s108 1724065330.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\SR_Module.vhd|
+Z34 !s107 F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\SR_Module.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z35 DEx4 work 9 sr_module 0 22 23GH<M7mV<Imc^KZ?X0hN0
+!i122 73
+l38
+Z36 L34 14
+VKg=]z]CO^@z0iA1SPH>X]1
+!s100 oMJY=QL`8Q9o461:ET[]N1
+R8
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R12
+R13
+Evga_timing_generator
+Z37 w1724064702
+R1
+R16
+R17
+R2
+R3
+!i122 68
+R4
+Z38 8F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator.vhd
+Z39 FF:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator.vhd
+l0
+L32 1
+VUOQQS3T0bZCIkIn2D8LYX3
+!s100 <0C0`oM47mOG4E^cFL4353
+R8
+32
+R14
+!i10b 1
+R20
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator.vhd|
+Z41 !s107 F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R16
+R17
+R2
+R3
+DEx4 work 20 vga_timing_generator 0 22 UOQQS3T0bZCIkIn2D8LYX3
+!i122 68
+l115
+L46 239
+V:nN[nC@=16Uj4d^A=97C13
+!s100 c43`5fke3@EWWn4J5<l[n1
+R8
+32
+R14
+!i10b 1
+R20
+R40
+R41
+!i113 1
+R12
+R13
+Evga_timing_generator_tb
+Z42 w1724062231
+R1
+R16
+R17
+R2
+R3
+!i122 69
+R4
+Z43 8F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator_TB.vhd
+Z44 FF:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator_TB.vhd
+l0
+L24 1
+VHb?AEAcOOedma9Ie^P[UT0
+!s100 <mkPc1>B7J0L:]nEaTNIe3
+R8
+32
+R14
+!i10b 1
+R20
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator_TB.vhd|
+Z46 !s107 F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\Simulation\Timing_generator_TB.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R16
+R17
+R2
+R3
+DEx4 work 23 vga_timing_generator_tb 0 22 Hb?AEAcOOedma9Ie^P[UT0
+!i122 69
+l62
+L29 98
+VWaV:C7hC=i[lI[SUcM0m;3
+!s100 UC[oG7Y2zRI^R;Ha0e6L_0
+R8
+32
+R14
+!i10b 1
+R20
+R45
+R46
+!i113 1
+R12
+R13

@@ -1,0 +1,17 @@
+@P:  Worst Slack : -1.176
+@P:  LED_VHDL|CLK - Estimated Frequency : NA
+@P:  LED_VHDL|CLK - Requested Frequency : 150.1 MHz
+@P:  LED_VHDL|CLK - Estimated Period : NA
+@P:  LED_VHDL|CLK - Requested Period : 6.664
+@P:  LED_VHDL|CLK - Slack : NA
+@P:  VGA_PLL|PLLOUTGLOBAL_derived_clock - Estimated Frequency : 127.6 MHz
+@P:  VGA_PLL|PLLOUTGLOBAL_derived_clock - Requested Frequency : 150.1 MHz
+@P:  VGA_PLL|PLLOUTGLOBAL_derived_clock - Estimated Period : 7.840
+@P:  VGA_PLL|PLLOUTGLOBAL_derived_clock - Requested Period : 6.664
+@P:  VGA_PLL|PLLOUTGLOBAL_derived_clock - Slack : -1.176
+@P: LED_VHDL Part : ice40hx8kct256
+@P: LED_VHDL I/O primitives : 10
+@P: LED_VHDL I/O Register bits : 0
+@P: LED_VHDL Register bits (Non I/O) : 25 (0%)
+@P: LED_VHDL Total Luts : 40 (0%)
+@P:  CPU Time : 0h:00m:00s

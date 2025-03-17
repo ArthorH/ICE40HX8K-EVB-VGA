@@ -1,0 +1,626 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: F:\Programs\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MIO1JAP
+
+# Sat May 18 10:06:16 2024
+
+#Implementation: VGA_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"F:\Programs\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Top entity is set to LED_VHDL.
+File F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd changed - recompiling
+File F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Synthesizing work.led_vhdl.behavioral.
+@N: CD630 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":4:7:4:13|Synthesizing work.vga_pll.behavior.
+@W: CD280 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":16:10:16:22|Unbound component SB_PLL40_CORE mapped to black box
+@N: CD630 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":16:10:16:22|Synthesizing work.sb_pll40_core.syn_black_box.
+Post processing for work.sb_pll40_core.syn_black_box
+@W: CD638 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":14:7:14:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.vga_pll.behavior
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":14:7:14:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input extfeedback of instance VGA_PLL_inst is floating
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 0 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 1 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 2 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 3 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 4 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 5 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 6 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 7 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input latchinputvalue of instance VGA_PLL_inst is floating
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input sdi of instance VGA_PLL_inst is floating
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input sclk of instance VGA_PLL_inst is floating
+Post processing for work.led_vhdl.behavioral
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat May 18 10:06:17 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Selected library: work cell: LED_VHDL view behavioral as top level
+@N: NF107 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Selected library: work cell: LED_VHDL view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat May 18 10:06:17 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat May 18 10:06:17 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_comp.srs changed - recompiling
+@N: NF107 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Selected library: work cell: LED_VHDL view behavioral as top level
+@N: NF107 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Selected library: work cell: LED_VHDL view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat May 18 10:06:18 2024
+
+###########################################################]
+Pre-mapping Report
+
+# Sat May 18 10:06:18 2024
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA_scck.rpt 
+Printing clock  summary report in "F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist LED_VHDL
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                  Requested     Requested     Clock                           Clock                     Clock
+Clock                                  Frequency     Period        Type                            Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------
+LED_VHDL|CLK                           109.7 MHz     9.113         inferred                        Autoconstr_clkgroup_0     0    
+VGA_PLL|PLLOUTGLOBAL_derived_clock     229.8 MHz     4.352         derived (from LED_VHDL|CLK)     Autoconstr_clkgroup_0     25   
+==================================================================================================================================
+
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat May 18 10:06:19 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Sat May 18 10:06:19 2024
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance div_cntr1[15:0] is being ignored. 
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance div_cntr2[6:0] is being ignored. 
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance dec_cntr is being ignored. 
+@W: FX1039 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|User-specified initial value defined for instance half_sec_pulse is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N: MO231 :"f:\projects\fpga\ice40\ice40hx8k_breakout\vga\icecube\vga\vga.vhd":86:2:86:3|Found counter in view:work.LED_VHDL(behavioral) instance div_cntr1[15:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.79ns		  37 /        25
+   2		0h:00m:00s		    -1.79ns		  37 /        25
+
+   3		0h:00m:00s		    -1.79ns		  37 /        25
+
+
+   4		0h:00m:00s		    -1.14ns		  41 /        25
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 25 clock pin(s) of sequential element(s)
+0 instances converted, 25 sequential instances remain driven by gated/generated clocks
+
+====================================================================================================== Gated/Generated Clocks ======================================================================================================
+Clock Tree ID     Driving Element               Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       VGA_PLL_inst.VGA_PLL_inst     SB_PLL40_CORE          25         div_cntr2[1]        Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+====================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+@W: MT420 |Found inferred clock LED_VHDL|CLK with period 6.66ns. Please declare a user-defined clock on object "p:CLK"
+@N: MT615 |Found clock VGA_PLL|PLLOUTGLOBAL_derived_clock with period 6.66ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat May 18 10:06:20 2024
+#
+
+
+Top view:               LED_VHDL
+Requested Frequency:    150.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.176
+
+                                       Requested     Estimated     Requested     Estimated                 Clock                           Clock                
+Starting Clock                         Frequency     Frequency     Period        Period        Slack       Type                            Group                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+LED_VHDL|CLK                           150.1 MHz     NA            6.664         NA            DCM/PLL     inferred                        Autoconstr_clkgroup_0
+VGA_PLL|PLLOUTGLOBAL_derived_clock     150.1 MHz     127.6 MHz     6.664         7.840         -1.176      derived (from LED_VHDL|CLK)     Autoconstr_clkgroup_0
+================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                            Ending                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+VGA_PLL|PLLOUTGLOBAL_derived_clock  VGA_PLL|PLLOUTGLOBAL_derived_clock  |  6.664       -1.176  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: VGA_PLL|PLLOUTGLOBAL_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                                    Arrival           
+Instance          Reference                              Type       Pin     Net               Time        Slack 
+                  Clock                                                                                         
+----------------------------------------------------------------------------------------------------------------
+div_cntr1[8]      VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[8]      0.540       -1.176
+div_cntr1[9]      VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[9]      0.540       -1.127
+div_cntr1[12]     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[12]     0.540       -1.127
+div_cntr1[0]      VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[0]      0.540       -1.106
+div_cntr1[10]     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[10]     0.540       -1.106
+div_cntr1[13]     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[13]     0.540       -1.078
+div_cntr1[1]      VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[1]      0.540       -1.057
+div_cntr1[14]     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[14]     0.540       -1.057
+div_cntr1[4]      VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[4]      0.540       -1.043
+div_cntr1[11]     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFF     Q       div_cntr1[11]     0.540       -1.043
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                                                Required           
+Instance           Reference                              Type         Pin     Net                         Time         Slack 
+                   Clock                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------
+half_sec_pulse     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFSS     S       half_sec_pulse_0_sqmuxa     6.559        -1.176
+half_sec_pulse     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFSS     D       half_sec_pulse_en           6.559        -1.064
+div_cntr2[6]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      D       div_cntr2_3[6]              6.559        -0.973
+div_cntr2[4]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      D       div_cntr2_3[4]              6.559        -0.909
+div_cntr2[2]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      D       div_cntr2_3[2]              6.559        -0.881
+div_cntr2_e[0]     VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      D       div_cntr2_e_RNO[0]          6.559        0.693 
+div_cntr2[3]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      D       div_cntr2_3[3]              6.559        0.707 
+div_cntr2[5]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      D       div_cntr2_RNO[5]            6.559        0.714 
+div_cntr2[1]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      E       op_eq\.div_cntr210          6.664        0.749 
+div_cntr2[2]       VGA_PLL|PLLOUTGLOBAL_derived_clock     SB_DFFE      E       op_eq\.div_cntr210          6.664        0.749 
+==============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.664
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.559
+
+    - Propagation time:                      7.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.176
+
+    Number of logic level(s):                3
+    Starting point:                          div_cntr1[8] / Q
+    Ending point:                            half_sec_pulse / S
+    The start point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+    The end   point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+div_cntr1[8]                SB_DFF       Q        Out     0.540     0.540       -         
+div_cntr1[8]                Net          -        -       1.599     -           3         
+div_cntr1_RNISPPD[8]        SB_LUT4      I0       In      -         2.139       -         
+div_cntr1_RNISPPD[8]        SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.div_cntr210_8        Net          -        -       1.371     -           3         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      I0       In      -         3.959       -         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.div_cntr210          Net          -        -       1.371     -           7         
+half_sec_pulse_RNO_0        SB_LUT4      I0       In      -         5.779       -         
+half_sec_pulse_RNO_0        SB_LUT4      O        Out     0.449     6.227       -         
+half_sec_pulse_0_sqmuxa     Net          -        -       1.507     -           1         
+half_sec_pulse              SB_DFFSS     S        In      -         7.734       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.840 is 1.992(25.4%) logic and 5.848(74.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.664
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.559
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.127
+
+    Number of logic level(s):                3
+    Starting point:                          div_cntr1[9] / Q
+    Ending point:                            half_sec_pulse / S
+    The start point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+    The end   point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+div_cntr1[9]                SB_DFF       Q        Out     0.540     0.540       -         
+div_cntr1[9]                Net          -        -       1.599     -           3         
+div_cntr1_RNISPPD[8]        SB_LUT4      I1       In      -         2.139       -         
+div_cntr1_RNISPPD[8]        SB_LUT4      O        Out     0.400     2.539       -         
+op_eq\.div_cntr210_8        Net          -        -       1.371     -           3         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      I0       In      -         3.910       -         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      O        Out     0.449     4.359       -         
+op_eq\.div_cntr210          Net          -        -       1.371     -           7         
+half_sec_pulse_RNO_0        SB_LUT4      I0       In      -         5.729       -         
+half_sec_pulse_RNO_0        SB_LUT4      O        Out     0.449     6.178       -         
+half_sec_pulse_0_sqmuxa     Net          -        -       1.507     -           1         
+half_sec_pulse              SB_DFFSS     S        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.664
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.559
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.127
+
+    Number of logic level(s):                3
+    Starting point:                          div_cntr1[12] / Q
+    Ending point:                            half_sec_pulse / S
+    The start point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+    The end   point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+div_cntr1[12]               SB_DFF       Q        Out     0.540     0.540       -         
+div_cntr1[12]               Net          -        -       1.599     -           3         
+div_cntr1_RNIQ64L[15]       SB_LUT4      I0       In      -         2.139       -         
+div_cntr1_RNIQ64L[15]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.div_cntr210_9        Net          -        -       1.371     -           3         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      I1       In      -         3.959       -         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      O        Out     0.400     4.359       -         
+op_eq\.div_cntr210          Net          -        -       1.371     -           7         
+half_sec_pulse_RNO_0        SB_LUT4      I0       In      -         5.729       -         
+half_sec_pulse_RNO_0        SB_LUT4      O        Out     0.449     6.178       -         
+half_sec_pulse_0_sqmuxa     Net          -        -       1.507     -           1         
+half_sec_pulse              SB_DFFSS     S        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.664
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.559
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.106
+
+    Number of logic level(s):                3
+    Starting point:                          div_cntr1[0] / Q
+    Ending point:                            half_sec_pulse / S
+    The start point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+    The end   point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+div_cntr1[0]                SB_DFF       Q        Out     0.540     0.540       -         
+div_cntr1[0]                Net          -        -       1.599     -           3         
+div_cntr1_RNIESE6[0]        SB_LUT4      I0       In      -         2.139       -         
+div_cntr1_RNIESE6[0]        SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.div_cntr210_10       Net          -        -       1.371     -           3         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      I2       In      -         3.959       -         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      O        Out     0.379     4.338       -         
+op_eq\.div_cntr210          Net          -        -       1.371     -           7         
+half_sec_pulse_RNO_0        SB_LUT4      I0       In      -         5.708       -         
+half_sec_pulse_RNO_0        SB_LUT4      O        Out     0.449     6.157       -         
+half_sec_pulse_0_sqmuxa     Net          -        -       1.507     -           1         
+half_sec_pulse              SB_DFFSS     S        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.664
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.559
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.106
+
+    Number of logic level(s):                3
+    Starting point:                          div_cntr1[10] / Q
+    Ending point:                            half_sec_pulse / S
+    The start point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+    The end   point is clocked by            VGA_PLL|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+div_cntr1[10]               SB_DFF       Q        Out     0.540     0.540       -         
+div_cntr1[10]               Net          -        -       1.599     -           3         
+div_cntr1_RNISPPD[8]        SB_LUT4      I2       In      -         2.139       -         
+div_cntr1_RNISPPD[8]        SB_LUT4      O        Out     0.379     2.518       -         
+op_eq\.div_cntr210_8        Net          -        -       1.371     -           3         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      I0       In      -         3.889       -         
+div_cntr1_RNI2ASF1[0]       SB_LUT4      O        Out     0.449     4.338       -         
+op_eq\.div_cntr210          Net          -        -       1.371     -           7         
+half_sec_pulse_RNO_0        SB_LUT4      I0       In      -         5.708       -         
+half_sec_pulse_RNO_0        SB_LUT4      O        Out     0.449     6.157       -         
+half_sec_pulse_0_sqmuxa     Net          -        -       1.507     -           1         
+half_sec_pulse              SB_DFFSS     S        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+---------------------------------------
+Resource Usage Report for LED_VHDL 
+
+Mapping to part: ice40hx8kct256
+Cell usage:
+GND             1 use
+SB_CARRY        15 uses
+SB_DFF          17 uses
+SB_DFFE         7 uses
+SB_DFFSS        1 use
+SB_PLL40_CORE   1 use
+VCC             1 use
+SB_LUT4         40 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_IO          10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   25 (0%)
+Total load per clock:
+   LED_VHDL|CLK: 1
+   VGA_PLL|PLLOUTGLOBAL_derived_clock: 26
+
+@S |Mapping Summary:
+Total  LUTs: 40 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 40 = 40 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat May 18 10:06:20 2024
+
+###########################################################]

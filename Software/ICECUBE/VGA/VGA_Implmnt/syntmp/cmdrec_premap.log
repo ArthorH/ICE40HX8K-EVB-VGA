@@ -1,0 +1,13 @@
+F:\Programs\ICEcube2\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt   -part iCE40HX8K  -package CT256    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\report\VGA_premap.xml  -oedif  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.edf  -conchk_prepass  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA_cck.rpt   -autoconstraint  -freq 1.000   F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_mult.srs  -flow prepass  -gcc_prepass  -osrd  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_prem.srd  -qsap  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.sap  -devicelib  F:\Programs\ICEcube2\synpbase\lib\generic\sb_ice40.v  -ologparam  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\syntmp\VGA.plg  -osyn  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_prem.srd  -prjdir  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\  -prjname  VGA_syn  -log  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\VGA_premap.srr 
+rc:0 success:1 runtime:1
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.edf|io:o|time:0|size:0|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA_cck.rpt|io:o|time:1716019579|size:2362|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_mult.srs|io:i|time:1716019578|size:3288|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_prem.srd|io:o|time:1716019579|size:6629|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\VGA.sap|io:o|time:1716019579|size:813|exec:0
+file:F:\Programs\ICEcube2\synpbase\lib\generic\sb_ice40.v|io:i|time:1711274551|size:224837|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\syntmp\VGA.plg|io:o|time:1716019578|size:0|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_prem.srd|io:o|time:1716019579|size:6629|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\VGA_premap.srr|io:o|time:1716019579|size:3503|exec:0
+file:F:\Programs\ICEcube2\synpbase\bin\m_generic.exe|io:i|time:1711274548|size:17853440|exec:1
+file:F:\Programs\ICEcube2\synpbase\bin64\m_generic.exe|io:i|time:1711274550|size:32355840|exec:1

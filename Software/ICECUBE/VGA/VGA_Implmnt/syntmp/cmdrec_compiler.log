@@ -1,0 +1,8 @@
+F:\Programs\ICEcube2\synpbase\bin64\c_hdl.exe  -osyn  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_comp.srs  -hdllog  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\VGA_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd -lib work F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd 
+rc:0 success:1 runtime:2
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synwork\VGA_comp.srs|io:o|time:1716019577|size:5794|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_Implmnt\synlog\VGA_compiler.srr|io:o|time:1716019577|size:8129|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd|io:i|time:1715800968|size:3280|exec:0
+file:F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd|io:i|time:1715787566|size:3960|exec:0
+file:F:\Programs\ICEcube2\synpbase\bin\c_hdl.exe|io:i|time:1711274548|size:1338368|exec:1
+file:F:\Programs\ICEcube2\synpbase\bin64\c_hdl.exe|io:i|time:1711274549|size:1754112|exec:1

@@ -1,0 +1,30 @@
+@N: CD630 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA.vhd":28:7:28:14|Synthesizing work.led_vhdl.behavioral.
+@N: CD630 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":4:7:4:13|Synthesizing work.vga_pll.behavior.
+@W: CD280 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":16:10:16:22|Unbound component SB_PLL40_CORE mapped to black box
+@N: CD630 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":16:10:16:22|Synthesizing work.sb_pll40_core.syn_black_box.
+Post processing for work.sb_pll40_core.syn_black_box
+@W: CD638 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":14:7:14:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.vga_pll.behavior
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":15:7:15:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":14:7:14:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input extfeedback of instance VGA_PLL_inst is floating
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 0 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 1 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 2 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 3 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 4 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 5 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 6 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Bit 7 of input dynamicdelay of instance VGA_PLL_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input latchinputvalue of instance VGA_PLL_inst is floating
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input sdi of instance VGA_PLL_inst is floating
+@W: CL167 :"F:\Projects\FPGA\ICE40\ICE40HX8K_breakout\VGA\ICECUBE\VGA\VGA_PLL.vhd":57:0:57:11|Input sclk of instance VGA_PLL_inst is floating
+Post processing for work.led_vhdl.behavioral

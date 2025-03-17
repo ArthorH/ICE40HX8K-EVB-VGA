@@ -1,0 +1,10 @@
+OUTPUT PLL_out 	 location (0, 31, 0) 	 B2 	 
+OUTPUT LED5 	 location (4, 33, 0) 	 C5 	 
+OUTPUT LED1 	 location (7, 33, 1) 	 B5 	 
+OUTPUT LED8 	 location (1, 33, 0) 	 C3 	 
+OUTPUT LED6 	 location (3, 33, 1) 	 C4 	 
+OUTPUT LED4 	 location (4, 33, 1) 	 A1 	 
+OUTPUT LED2 	 location (6, 33, 1) 	 B4 	 
+INPUT  CLK 	 location (0, 16, 1) 	 J3 	 
+OUTPUT LED7 	 location (3, 33, 0) 	 B3 	 
+OUTPUT LED3 	 location (5, 33, 1) 	 A2 	 

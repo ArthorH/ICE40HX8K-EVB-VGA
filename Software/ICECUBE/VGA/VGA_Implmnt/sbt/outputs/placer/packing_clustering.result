@@ -1,0 +1,49 @@
+ble_pack div_cntr1[0]_LC_6 {div_cntr1[0], div_cntr1_cry_c[0], div_cntr1_RNO[0]}
+ble_pack div_cntr1[1]_LC_7 {div_cntr1[1], div_cntr1_cry_c[1], div_cntr1_RNO[1]}
+ble_pack div_cntr1[2]_LC_14 {div_cntr1[2], div_cntr1_cry_c[2], div_cntr1_RNO[2]}
+ble_pack div_cntr1[3]_LC_15 {div_cntr1[3], div_cntr1_cry_c[3], div_cntr1_RNO[3]}
+ble_pack div_cntr1[4]_LC_16 {div_cntr1[4], div_cntr1_cry_c[4], div_cntr1_RNO[4]}
+ble_pack div_cntr1[5]_LC_17 {div_cntr1[5], div_cntr1_cry_c[5], div_cntr1_RNO[5]}
+ble_pack div_cntr1[6]_LC_18 {div_cntr1[6], div_cntr1_cry_c[6], div_cntr1_RNO[6]}
+ble_pack div_cntr1[7]_LC_19 {div_cntr1[7], div_cntr1_cry_c[7], div_cntr1_RNO[7]}
+clb_pack PLB_0 {div_cntr1[0]_LC_6, div_cntr1[1]_LC_7, div_cntr1[2]_LC_14, div_cntr1[3]_LC_15, div_cntr1[4]_LC_16, div_cntr1[5]_LC_17, div_cntr1[6]_LC_18, div_cntr1[7]_LC_19}
+ble_pack div_cntr1[8]_LC_20 {div_cntr1[8], div_cntr1_cry_c[8], div_cntr1_RNO[8]}
+ble_pack div_cntr1[9]_LC_21 {div_cntr1[9], div_cntr1_cry_c[9], div_cntr1_RNO[9]}
+ble_pack div_cntr1[10]_LC_8 {div_cntr1[10], div_cntr1_cry_c[10], div_cntr1_RNO[10]}
+ble_pack div_cntr1[11]_LC_9 {div_cntr1[11], div_cntr1_cry_c[11], div_cntr1_RNO[11]}
+ble_pack div_cntr1[12]_LC_10 {div_cntr1[12], div_cntr1_cry_c[12], div_cntr1_RNO[12]}
+ble_pack div_cntr1[13]_LC_11 {div_cntr1[13], div_cntr1_cry_c[13], div_cntr1_RNO[13]}
+ble_pack div_cntr1[14]_LC_12 {div_cntr1[14], div_cntr1_cry_c[14], div_cntr1_RNO[14]}
+ble_pack div_cntr1[15]_LC_13 {div_cntr1[15], div_cntr1_RNO[15]}
+clb_pack PLB_1 {div_cntr1[8]_LC_20, div_cntr1[9]_LC_21, div_cntr1[10]_LC_8, div_cntr1[11]_LC_9, div_cntr1[12]_LC_10, div_cntr1[13]_LC_11, div_cntr1[14]_LC_12, div_cntr1[15]_LC_13}
+ble_pack div_cntr1_RNI2ASF1[0]_LC_1 {div_cntr1_RNI2ASF1[0]}
+ble_pack half_sec_pulse_RNO_0_LC_37 {half_sec_pulse_RNO_0}
+ble_pack div_cntr1_RNISPPD[8]_LC_4 {div_cntr1_RNISPPD[8]}
+ble_pack div_cntr1_RNIQ64L[15]_LC_3 {div_cntr1_RNIQ64L[15]}
+ble_pack div_cntr1_RNIESE6[0]_LC_2 {div_cntr1_RNIESE6[0]}
+ble_pack half_sec_pulse_RNO_2_LC_39 {half_sec_pulse_RNO_2}
+clb_pack PLB_2 {div_cntr1_RNI2ASF1[0]_LC_1, half_sec_pulse_RNO_0_LC_37, div_cntr1_RNISPPD[8]_LC_4, div_cntr1_RNIQ64L[15]_LC_3, div_cntr1_RNIESE6[0]_LC_2, half_sec_pulse_RNO_2_LC_39}
+ble_pack div_cntr1_RNIUCF6[4]_LC_5 {div_cntr1_RNIUCF6[4]}
+ble_pack half_sec_pulse_RNO_1_LC_38 {half_sec_pulse_RNO_1}
+ble_pack half_sec_pulse_LC_36 {half_sec_pulse, half_sec_pulse_RNO}
+ble_pack div_cntr2_RNIMFRB_0[3]_LC_22 {div_cntr2_RNIMFRB_0[3]}
+ble_pack div_cntr2_RNIU80K[6]_LC_24 {div_cntr2_RNIU80K[6]}
+ble_pack div_cntr2_RNIMFRB[3]_LC_23 {div_cntr2_RNIMFRB[3]}
+ble_pack div_cntr2_RNO_0[4]_LC_26 {div_cntr2_RNO_0[4]}
+ble_pack div_cntr2_RNO_1[3]_LC_29 {div_cntr2_RNO_1[3]}
+clb_pack PLB_3 {div_cntr1_RNIUCF6[4]_LC_5, half_sec_pulse_RNO_1_LC_38, half_sec_pulse_LC_36, div_cntr2_RNIMFRB_0[3]_LC_22, div_cntr2_RNIU80K[6]_LC_24, div_cntr2_RNIMFRB[3]_LC_23, div_cntr2_RNO_0[4]_LC_26, div_cntr2_RNO_1[3]_LC_29}
+ble_pack div_cntr2_RNO_0[3]_LC_25 {div_cntr2_RNO_0[3]}
+ble_pack div_cntr2[3]_LC_31 {div_cntr2[3], div_cntr2_RNO[3]}
+ble_pack div_cntr2[4]_LC_32 {div_cntr2[4], div_cntr2_RNO[4]}
+ble_pack div_cntr2[5]_LC_33 {div_cntr2[5], div_cntr2_RNO[5]}
+ble_pack div_cntr2_RNO_0[6]_LC_27 {div_cntr2_RNO_0[6]}
+ble_pack div_cntr2[6]_LC_34 {div_cntr2[6], div_cntr2_RNO[6]}
+ble_pack div_cntr2[2]_LC_30 {div_cntr2[2], div_cntr2_RNO[2]}
+ble_pack div_cntr2[1]_LC_28 {div_cntr2[1], div_cntr2_RNO[1]}
+clb_pack PLB_4 {div_cntr2_RNO_0[3]_LC_25, div_cntr2[3]_LC_31, div_cntr2[4]_LC_32, div_cntr2[5]_LC_33, div_cntr2_RNO_0[6]_LC_27, div_cntr2[6]_LC_34, div_cntr2[2]_LC_30, div_cntr2[1]_LC_28}
+ble_pack div_cntr2_e[0]_LC_35 {div_cntr2_e[0], div_cntr2_e_RNO[0]}
+ble_pack GB_BUFFER_PLL_out_c_THRU_LUT4_0_LC_40 {GB_BUFFER_PLL_out_c_THRU_LUT4_0}
+ble_pack LC_41 {CONSTANT_ONE_LUT4}
+clb_pack PLB_5 {div_cntr2_e[0]_LC_35, GB_BUFFER_PLL_out_c_THRU_LUT4_0_LC_40, LC_41}
+ble_pack dec_cntr_LC_0 {dec_cntr, dec_cntr_RNO}
+clb_pack PLB_6 {dec_cntr_LC_0}
